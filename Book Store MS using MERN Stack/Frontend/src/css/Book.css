@@ -1,0 +1,59 @@
+/* Books Component  */
+.book-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+/* BookCard.css */
+
+.book-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  
+  .book-card  .book-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .book-card  .book-details {
+    padding: 10px;
+  }
+  
+  .book-card  .book-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  .book-card  button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  
+    &:hover {
+      background-color: #2980b9;
+    }
+  }
+  .book-card .btn-link {
+    text-decoration: none;
+    color: white;
+  }
+  
